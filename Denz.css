@@ -1,0 +1,277 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: Verdana;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+position: fixed;
+display: flex;
+padding: 0 20px;
+width: 100vw;
+height: fit-content;
+justify-content: space-between;
+border-bottom: 2px solid #000 ;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+background-color: #fff;
+z-index: 999;
+
+}
+
+nav img {    
+max-height: 80px;
+
+}
+
+nav h1 {
+    display:inline-block;
+    margin-left: 10px;
+    font-family: Verdana;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.nav_links {
+    gap:90px ;
+   
+    font-family: Verdana;
+    margin-right: 100px ;
+    color: #000; 
+}
+.nav_links a {
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+main > div:first-of-type {
+    display: flex;
+    margin-top: 261px;
+
+
+}
+main > div > div {
+    
+    
+    width: 50%;
+}
+.box-1 {
+    
+    gap: 30px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.box-1 h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    
+
+}
+
+.box-1 span {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 500;
+   
+}
+
+.box-1 img {
+
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    
+}
+
+.box-1 > div {
+    translate: 5px 10px ;
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+
+    
+
+#about {
+  scroll-margin-top:140px ;
+}
+
+
+content  {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 150px 150px 0 150px;
+    flex-direction: column;
+
+}
+content h1 { 
+    text-align: center;   
+    margin-bottom: 100px;
+}
+
+.row_about {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.image_about {
+    margin-left: 100px;
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+.paragraph_about {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    gap:30px ;
+}
+
+
+
+#skills {
+  scroll-margin-top:140px ;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 100px 150px 100px 150px;
+  }
+  
+  section h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .core_sec {
+    margin-bottom: 50px;
+    margin-left:120px;
+    justify-content: center;
+    display: flex;
+    justify-content: start;
+    font-size: 1.5rem;
+    text-align: start;
+
+  }
+  
+  .skillset_sec,
+  .skillset_sec2,
+  .skillset_sec3 {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-4,
+  .skill-5,
+  .skill-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+
+   footer {
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 100px;
+   }
+
+
+
+   footer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px 150px 50px 150px;
+  }
+  
+  .contact_us {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  .myEmails {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: start;
+    margin-bottom: 25px;
+  }
+
+
+     
+  .contacts_foooter {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;;
+  }
+
+
+
+
+
+  .emails_footer,
+  .personalcontact_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 500px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .contact_lists {
+    height: 200px;
+    display: fixed;
+    width: 100%;
+    background-color: black;
+  }
+

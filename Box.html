@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Is A Box</title>
+    <style>
+        * {
+            margin: 0;
+      
+        }
+
+
+/*
+        nav {
+            margin:  10px 10px 10px 10px;
+            border: 20px  solid black;
+            padding: 20px;
+            position: absolute;
+
+            display: block;
+
+            left: 32%;
+            background-color: beige;
+            width: 500px;
+            height: 500px;
+  
+
+        }
+
+        main {
+            margin:  1000px 50px 100px 10px;
+            border: 20px  solid black;
+            padding: 20px;
+            display: block;
+            position: absolute;
+            top: 100px;
+            left: 32%;
+            background-color: beige;
+            width: 500px;
+            height: 500px;
+            display: flex;
+         
+
+
+        }
+
+        */
+
+
+        main {
+            display: grid;
+            grid-template-areas: 
+            "top    top1   top  "    
+            "left   mid   right "
+;
+
+            grid-template-columns: 1fr 3fr 1fr ;
+            grid-template-rows:  500px 500px;
+
+            justify-items: center ;
+            align-items: center;         
+        }     
+
+        .nigga {
+            position: relative;
+
+            display: flex;
+            background-color: salmon;
+            border: 2px solid green;
+            padding: 10px 50px;
+            margin: 30px 50px;
+            top: 1px;
+            font-size: 2rem;
+
+            zoom: 300%;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <div>I</div>
+        <div>Hate</div>
+        <div>Nigger</div>
+        <div>I</div>
+        <div class="Nigga">Hate</div>
+        <div>Black</div>
+        <div>I</div>
+        <div>Hate</div>
+        <div>Gay Peopl</div>
+       
+      
+            
+    </main>
+    
+    
+
+
+    
+</body>
+</html>
