@@ -1,0 +1,105 @@
+
+main {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    
+    }
+
+
+.what_java {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    display: flex;
+    margin-right: 170px;
+    height: 300px;
+    width: 1000px;
+}
+
+.what_java a, p {
+    padding: 10px;
+}
+
+.what_java a {
+    color: white;
+
+    align-content: center;
+    
+    /*---------------------------------------------------------------*/
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 200; 
+    font-size: 3rem;
+    color: white;
+    letter-spacing: -0.2rem;
+    line-height: 1.1;
+    text-wrap: balance;
+
+}
+
+.what_java p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200; 
+
+
+}
+
+
+
+
+
+
+
+
+section {
+    flex-direction: row;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.threading_code, .threading_output {
+    display: flex;
+
+    
+}
+
+.threading_code {
+    margin-left: 50px;
+    height: 400px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac_web {
+    width:700px ;
+    height: 370px;
+    border-radius: 10px ;
+
+}
+
+
+.threading_output {
+    margin-right: 50px;
+    height: 400px;
+    width: 550px;
+}
+
+
+
+
+
+
+
+
+
